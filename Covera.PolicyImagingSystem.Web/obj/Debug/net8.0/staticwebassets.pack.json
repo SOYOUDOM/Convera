@@ -1,0 +1,45 @@
+{
+  "Files": [
+    {
+      "Id": "D:\\C#\\API boilerplate\\Covera.PolicyImagingSystem\\Covera.PolicyImagingSystem.Web\\wwwroot\\Resources\\Images\\swagger-logo.png",
+      "PackagePath": "staticwebassets\\Resources\\Images\\swagger-logo.png"
+    },
+    {
+      "Id": "D:\\C#\\API boilerplate\\Covera.PolicyImagingSystem\\Covera.PolicyImagingSystem.Web\\wwwroot\\Templates\\css\\style.css",
+      "PackagePath": "staticwebassets\\Templates\\css\\style.css"
+    },
+    {
+      "Id": "D:\\C#\\API boilerplate\\Covera.PolicyImagingSystem\\Covera.PolicyImagingSystem.Web\\wwwroot\\Templates\\css\\swagger-custom.css",
+      "PackagePath": "staticwebassets\\Templates\\css\\swagger-custom.css"
+    },
+    {
+      "Id": "D:\\C#\\API boilerplate\\Covera.PolicyImagingSystem\\Covera.PolicyImagingSystem.Web\\wwwroot\\Templates\\js\\swagger-custom-script.js",
+      "PackagePath": "staticwebassets\\Templates\\js\\swagger-custom-script.js"
+    },
+    {
+      "Id": "D:\\C#\\API boilerplate\\Covera.PolicyImagingSystem\\Covera.PolicyImagingSystem.Web\\wwwroot\\Templates\\views\\COI\\COI_En.html",
+      "PackagePath": "staticwebassets\\Templates\\views\\COI\\COI_En.html"
+    },
+    {
+      "Id": "D:\\C#\\API boilerplate\\Covera.PolicyImagingSystem\\Covera.PolicyImagingSystem.Web\\wwwroot\\Templates\\views\\COI\\COI_Kh.html",
+      "PackagePath": "staticwebassets\\Templates\\views\\COI\\COI_Kh.html"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.Covera.PolicyImagingSystem.Web.Microsoft.AspNetCore.StaticWebAssets.props",
+      "PackagePath": "build\\Microsoft.AspNetCore.StaticWebAssets.props"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.build.Covera.PolicyImagingSystem.Web.props",
+      "PackagePath": "build\\Covera.PolicyImagingSystem.Web.props"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.buildMultiTargeting.Covera.PolicyImagingSystem.Web.props",
+      "PackagePath": "buildMultiTargeting\\Covera.PolicyImagingSystem.Web.props"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.buildTransitive.Covera.PolicyImagingSystem.Web.props",
+      "PackagePath": "buildTransitive\\Covera.PolicyImagingSystem.Web.props"
+    }
+  ],
+  "ElementsToRemove": []
+}

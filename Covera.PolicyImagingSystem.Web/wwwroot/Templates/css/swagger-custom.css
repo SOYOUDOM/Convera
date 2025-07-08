@@ -1,0 +1,266 @@
+﻿/* Elegant, Expensive Enterprise Dark Theme for Swagger UI */
+
+/* 1. Dark background and wrapper */
+body,
+.swagger-ui {
+    background: #181a20 !important;
+    color: #f2f4f8 !important;
+}
+
+    .swagger-ui .topbar-wrapper {
+        width: 100%;
+        max-width: 100%;
+        left: 0;
+        right: 0;
+        margin: 0;
+        padding: 0 36px;
+        background: transparent !important;
+        box-shadow: none !important;
+        position: relative;
+        display: flex;
+        align-items: center;
+        min-height: 70px;
+        height: 70px;
+        box-sizing: border-box; /* Ensures padding stays inside */
+        justify-content: space-between; /* Pushes right side to the edge */
+        overflow-x: auto; /* Allows for scroll if content overflows */
+    }
+
+    /* 2. Topbar: dark with red accent, logo with glow */
+    .swagger-ui .topbar {
+        background: #1a1d23 !important;
+        min-height: 62px;
+        border-bottom: 2.5px solid #e60013;
+        box-shadow: 0 3px 24px rgba(0, 0, 0, 0.13);
+        display: flex;
+        align-items: center;
+        padding-left: 30px;
+        padding-right: 24px;
+        height: 70px;
+    }
+
+    .swagger-ui .topbar-wrapper > div {
+        border-radius: 0 !important;
+        box-shadow: none !important;
+        background: transparent !important;
+        padding: 0 !important;
+        margin: 0 !important;
+        display: flex;
+        align-items: center;
+        height: 70px; /* Same as above for consistent look */
+        justify-content: space-between;
+    }
+
+    .swagger-ui .topbar-wrapper svg {
+        display: none !important;
+    }
+
+    .swagger-ui .topbar-wrapper .link {
+        height: 70px !important;
+        align-items: center;
+        display: flex;
+        margin-right: auto;
+    }
+
+    .swagger-ui .topbar select {
+        margin-top: 0;
+        margin-bottom: 0;
+        height: 38px;
+        vertical-align: middle;
+        margin-left: auto;
+    }
+
+    .swagger-ui .topbar-wrapper .link:before {
+        content: "";
+        display: inline-block;
+        width: 55px;
+        height: 55px;
+        background: url("/Resources/Images/swagger-logo.png") center center / cover no-repeat;
+        border-radius: 50%;
+        margin-right: 18px;
+        /* Beautiful glow */
+        box-shadow: 0 0 0 4px #21242b, 0 0 22px 5px #e60013bb, 0 0 48px 16px #e6001350;
+    }
+
+    .swagger-ui .topbar-wrapper .link span {
+        font-size: 0;
+    }
+
+    .swagger-ui .topbar-wrapper .link:after {
+        content: "COVERA Policy Imaging System";
+        font-size: 1.45rem;
+        color: #f2f4f8;
+        font-weight: 700;
+        letter-spacing: 1.3px;
+        text-shadow: 0 2px 12px #16161955;
+    }
+
+    /* 3. Info block: card with left red border, light surface */
+    .swagger-ui .info {
+        border-left: 4.5px solid #e60013;
+        background: #232730 !important;
+        border-radius: 7px;
+        padding: 18px 28px;
+        margin-bottom: 28px;
+        color: #f2f4f8 !important;
+        box-shadow: 0 2px 12px rgba(100, 0, 0, 0.04);
+    }
+
+        .swagger-ui .info .title,
+        .swagger-ui .info hgroup {
+            color: #fff !important;
+            font-size: 2.05rem;
+            font-weight: 800;
+            letter-spacing: 1px;
+            margin-bottom: 12px;
+        }
+
+        .swagger-ui .info .base-url {
+            color: #ffe2e4 !important;
+            font-weight: 600;
+        }
+
+.url {
+    display: none;
+}
+
+/* 4. Dropdown and select menus */
+.swagger-ui select {
+    background: #23252d !important;
+    border: 1.5px solid #e60013 !important;
+    color: #f2f4f8 !important;
+    border-radius: 6px;
+    font-weight: 500;
+    font-size: 1rem;
+    padding: 4px 16px;
+    margin-left: 12px;
+    box-shadow: 0 0 6px #e6001322;
+}
+
+/* 5. Buttons, tags, methods: red on dark, rounded, glow */
+.swagger-ui .opblock-tag,
+.swagger-ui .opblock .opblock-summary-method,
+.swagger-ui .btn.try-out__btn,
+.swagger-ui .btn,
+.swagger-ui .btn.cancel,
+.swagger-ui .btn.execute {
+    background: linear-gradient(100deg, #e60013 80%, #c80022 100%) !important;
+    color: #fff !important;
+    border: none;
+    border-radius: 6px;
+    font-weight: 700;
+    box-shadow: 0 2px 16px #e6001340;
+    transition: filter 0.2s;
+    filter: brightness(0.98);
+}
+
+    .swagger-ui .btn:hover,
+    .swagger-ui .btn.execute:hover {
+        filter: brightness(1.12);
+    }
+
+    .swagger-ui .btn.cancel {
+        background: #6e2938 !important;
+    }
+
+    .swagger-ui .btn,
+    .swagger-ui .btn.cancel,
+    .swagger-ui .btn.execute {
+        min-width: 100px;
+    }
+
+/* 6. Tag section, method blocks: surface, shadow */
+.swagger-ui .opblock-tag-section {
+    background: #22252c;
+    border-radius: 8px;
+    box-shadow: 0 1px 7px rgba(180, 0, 0, 0.03);
+    margin-bottom: 15px;
+    padding: 13px 13px 17px 13px;
+}
+
+.swagger-ui .opblock {
+    background: #23252c !important;
+    border-radius: 8px;
+    border: 1.5px solid #282b33;
+    box-shadow: 0 3px 16px #16161910;
+}
+
+/* 7. Response status codes: red highlight, white text */
+.swagger-ui .response-col_status {
+    color: #fff !important;
+    background: #e60013 !important;
+    border-radius: 4px;
+    padding: 3px 12px;
+    font-weight: 700;
+    box-shadow: 0 0 9px #e6001360;
+}
+
+/* 8. Main font, headings, text shadow for luxury look */
+.swagger-ui,
+.swagger-ui .info,
+.swagger-ui .opblock-summary-description,
+.swagger-ui .response-col_description__inner {
+    font-family: "Segoe UI", "Inter", "Arial", sans-serif !important;
+    font-size: 1.04rem;
+    color: #f2f4f8;
+}
+
+    .swagger-ui h2,
+    .swagger-ui h3 {
+        color: #fff;
+        font-weight: 700;
+        text-shadow: 0 1px 6px #181a2050;
+    }
+
+    .swagger-ui .responses-inner h4,
+    .swagger-ui .response-col_description__inner {
+        color: #e60013 !important;
+    }
+
+    /* 9. Hide Powered by Swagger */
+    .swagger-ui .topbar-wrapper .link[href*="swagger.io"] {
+        display: none !important;
+    }
+
+    /* 10. Code samples, blocks, and parameters: subtle dark, red border */
+    .swagger-ui .microlight,
+    .swagger-ui pre {
+        background: #1c1f24 !important;
+        color: #ffdde2 !important;
+        border-radius: 5px;
+        border-left: 4px solid #e60013;
+        font-size: 1.01em;
+    }
+
+    /* 11. Inputs, textareas, forms */
+    .swagger-ui input,
+    .swagger-ui textarea {
+        background: #21242b !important;
+        color: #fff !important;
+        border: 1.5px solid #333;
+        border-radius: 5px;
+        padding: 7px 10px;
+        font-size: 1em;
+    }
+
+/* 12. Scrollbar for dark theme */
+::-webkit-scrollbar {
+    width: 10px;
+    background: #23252c;
+}
+
+::-webkit-scrollbar-thumb {
+    background: #353840;
+    border-radius: 6px;
+}
+
+.swagger-ui .topbar-wrapper .container {
+    width: 100%;
+    max-width: 1300px; /* or whatever looks best */
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 36px;
+    box-sizing: border-box;
+}

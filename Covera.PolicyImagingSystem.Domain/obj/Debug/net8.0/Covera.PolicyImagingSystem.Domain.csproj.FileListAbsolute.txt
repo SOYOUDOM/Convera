@@ -1,0 +1,12 @@
+D:\C#\API boilerplate\Covera.PolicyImagingSystem\Covera.PolicyImagingSystem.Domain\bin\Debug\net8.0\Covera.PolicyImagingSystem.Domain.deps.json
+D:\C#\API boilerplate\Covera.PolicyImagingSystem\Covera.PolicyImagingSystem.Domain\bin\Debug\net8.0\Covera.PolicyImagingSystem.Domain.dll
+D:\C#\API boilerplate\Covera.PolicyImagingSystem\Covera.PolicyImagingSystem.Domain\bin\Debug\net8.0\Covera.PolicyImagingSystem.Domain.pdb
+D:\C#\API boilerplate\Covera.PolicyImagingSystem\Covera.PolicyImagingSystem.Domain\obj\Debug\net8.0\Covera.PolicyImagingSystem.Domain.csproj.AssemblyReference.cache
+D:\C#\API boilerplate\Covera.PolicyImagingSystem\Covera.PolicyImagingSystem.Domain\obj\Debug\net8.0\Covera.PolicyImagingSystem.Domain.GeneratedMSBuildEditorConfig.editorconfig
+D:\C#\API boilerplate\Covera.PolicyImagingSystem\Covera.PolicyImagingSystem.Domain\obj\Debug\net8.0\Covera.PolicyImagingSystem.Domain.AssemblyInfoInputs.cache
+D:\C#\API boilerplate\Covera.PolicyImagingSystem\Covera.PolicyImagingSystem.Domain\obj\Debug\net8.0\Covera.PolicyImagingSystem.Domain.AssemblyInfo.cs
+D:\C#\API boilerplate\Covera.PolicyImagingSystem\Covera.PolicyImagingSystem.Domain\obj\Debug\net8.0\Covera.PolicyImagingSystem.Domain.csproj.CoreCompileInputs.cache
+D:\C#\API boilerplate\Covera.PolicyImagingSystem\Covera.PolicyImagingSystem.Domain\obj\Debug\net8.0\Covera.PolicyImagingSystem.Domain.dll
+D:\C#\API boilerplate\Covera.PolicyImagingSystem\Covera.PolicyImagingSystem.Domain\obj\Debug\net8.0\refint\Covera.PolicyImagingSystem.Domain.dll
+D:\C#\API boilerplate\Covera.PolicyImagingSystem\Covera.PolicyImagingSystem.Domain\obj\Debug\net8.0\Covera.PolicyImagingSystem.Domain.pdb
+D:\C#\API boilerplate\Covera.PolicyImagingSystem\Covera.PolicyImagingSystem.Domain\obj\Debug\net8.0\ref\Covera.PolicyImagingSystem.Domain.dll

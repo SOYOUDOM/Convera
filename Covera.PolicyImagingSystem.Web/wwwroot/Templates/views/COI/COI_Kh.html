@@ -1,0 +1,63 @@
+﻿<div class="coi-container kh">
+    <header class="coi-header">
+        <div class="coi-logo">
+            <img src="" alt="AIA Logo" style="height: 54px;">
+        </div>
+        <div class="coi-header-text">
+            <h1>លិខិតបញ្ជាក់ធានារ៉ាប់រង</h1>
+            <h2 class="product-title">AIA Wealth Prestige</h2>
+            <div class="sub-title">ចេញដោយ ក្រុមហ៊ុន ធានារ៉ាប់រងជីវិត អាយ.អេ.អាយ. កម្ពុជា ភីអិលស៊ី</div>
+        </div>
+    </header>
+    <section class="coi-section section-policy">
+        <h3 class="section-title">ព័ត៌មានគោលនយោបាយ</h3>
+        <div class="coi-row"><span class="coi-label">លេខគោលនយោបាយ:</span><span class="coi-value">{{PolicyNumber}}</span></div>
+        <div class="coi-row"><span class="coi-label">កាលបរិច្ឆេទចេញ:</span><span class="coi-value">{{IssueDate}}</span></div>
+        <div class="coi-row"><span class="coi-label">លេខកូដផែនការ:</span><span class="coi-value">{{PlanCode}}</span></div>
+        <div class="coi-row"><span class="coi-label">ប្រាក់បៀវត្ស:</span><span class="coi-value">{{PremiumAmount}}</span></div>
+        <div class="coi-row"><span class="coi-label">រយៈពេលធានារ៉ាប់រង:</span><span class="coi-value">{{IssueDate}}</span></div>
+    </section>
+
+    <section class="coi-section section-owner">
+        <h3 class="section-title">ព័ត៌មានម្ចាស់គោលនយោបាយ</h3>
+        <div class="coi-row"><span class="coi-label">ឈ្មោះម្ចាស់:</span><span class="coi-value">{{OwnerFullName}}</span></div>
+        <div class="coi-row"><span class="coi-label">ភេទ:</span><span class="coi-value">{{OwnerGender}}</span></div>
+        <div class="coi-row"><span class="coi-label">ថ្ងៃខែឆ្នាំកំណើត:</span><span class="coi-value">{{OwnerDOB}}</span></div>
+        <div class="coi-row"><span class="coi-label">លេខទូរស័ព្ទ:</span><span class="coi-value">{{OwnerPhoneNumber}}</span></div>
+        <div class="coi-row"><span class="coi-label">អាសយដ្ឋាន:</span><span class="coi-value">{{OwnerFullAddress}}</span></div>
+    </section>
+
+    <section class="coi-section section-assured">
+        <h3 class="section-title">ព័ត៌មានអ្នកមានធានារ៉ាប់រង</h3>
+        <div class="coi-row"><span class="coi-label">ឈ្មោះ:</span><span class="coi-value">{{LifeAssuredFullName}}</span></div>
+        <div class="coi-row"><span class="coi-label">ភេទ:</span><span class="coi-value">{{LifeAssuredGender}}</span></div>
+        <div class="coi-row"><span class="coi-label">ថ្ងៃខែឆ្នាំកំណើត:</span><span class="coi-value">{{LifeAssuredDOB}}</span></div>
+        <div class="coi-row"><span class="coi-label">សញ្ជាតិ:</span><span class="coi-value">{{LifeAssuredNationality}}</span></div>
+        <div class="coi-row"><span class="coi-label">អាយុចូល:</span><span class="coi-value">{{LifeAssuredEntryAge}}</span></div>
+        <div class="coi-row"><span class="coi-label">លេខទូរស័ព្ទ:</span><span class="coi-value">{{LifeAssuredPhoneNumber}}</span></div>
+        <div class="coi-row"><span class="coi-label">អាសយដ្ឋាន:</span><span class="coi-value">{{LifeAssuredFullAddress}}</span></div>
+    </section>
+
+    <section class="coi-section section-benefit">
+        <h3 class="section-title">អត្ថប្រយោជន៍សំខាន់ៗ</h3>
+        <ul class="coi-benefit-list">
+            <li>បង់ប្រាក់ជាប្រចាំសម្រាប់បញ្ចូលទុន និងបង្កើនទ្រព្យសម្បត្តិរបស់អ្នក។</li>
+            <li>ទទួលប្រាក់សំណងបើមានការបាត់បង់ជីវិត ឬពិការភាពអចិន្រ្តៃយ៍។</li>
+            <li>មានជម្រើសបន្ថែមសម្រាប់ការការពារបន្ថែម។</li>
+            <li>ទទួលបានតម្លៃធានារ៉ាប់រងបញ្ចូលប្រាក់បូករួមបន្ទាប់ពីឆ្នាំដែលកំណត់។</li>
+        </ul>
+    </section>
+
+    <div class="coi-footer">
+        <div class="coi-signature-block">
+            <div class="signature-label">ហត្ថលេខា៖</div>
+            <div class="signature-line"></div>
+            <div class="signature-date">កាលបរិច្ឆេទ: {{PrintDate}}</div>
+        </div>
+        <div class="footer-note">
+            លិខិតនេះគ្រាន់តែបញ្ជាក់ពីការធានារ៉ាប់រងតាមគោលនយោបាយខាងលើ។<br>
+            សូមយោងទៅកាន់ឯកសារគោលនយោបាយពេញលេញសម្រាប់លក្ខខណ្ឌទាំងអស់។<br>
+            &copy; {{CurrentYear}} ក្រុមហ៊ុន ធានារ៉ាប់រងជីវិត អាយ.អេ.អាយ. កម្ពុជា ភីអិលស៊ី
+        </div>
+    </div>
+</div>

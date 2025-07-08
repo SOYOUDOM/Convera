@@ -1,0 +1,132 @@
+﻿body {
+    font-family: "Segoe UI", "Arial", "Khmer OS", sans-serif;
+    background: #f5f6fa;
+    color: #273043;
+    margin: 0;
+    padding: 0;
+}
+
+.coi-container {
+    width: 900px;
+    max-width: 98vw;
+    margin: 32px auto;
+    background: #fff;
+    border: 1.5px solid #e03638;
+    border-radius: 16px;
+    box-shadow: 0 2px 16px rgba(224,54,56,0.09);
+    padding: 36px 48px 36px 48px;
+}
+
+.coi-header {
+    display: flex;
+    align-items: center;
+    border-bottom: 3px solid #e03638;
+    padding-bottom: 20px;
+    margin-bottom: 26px;
+}
+
+.coi-logo {
+    margin-right: 28px;
+}
+
+.coi-header-text h1 {
+    margin: 0 0 7px 0;
+    font-size: 2.2rem;
+    color: #e03638;
+    letter-spacing: 2px;
+}
+
+.coi-header-text .product-title {
+    margin: 0 0 2px 0;
+    color: #222;
+    font-size: 1.4rem;
+    letter-spacing: 0.5px;
+}
+
+.coi-header-text .sub-title {
+    color: #8b909b;
+    font-size: 1.03rem;
+    margin-bottom: 0;
+}
+
+.section-title {
+    color: #e03638;
+    font-size: 1.18rem;
+    font-weight: bold;
+    margin: 24px 0 14px 0;
+    padding-bottom: 3px;
+    border-bottom: 1px solid #ececec;
+}
+
+.coi-row {
+    display: flex;
+    margin-bottom: 10px;
+}
+
+.coi-label {
+    flex: 0 0 180px;
+    font-weight: 600;
+    color: #555;
+}
+
+.coi-value {
+    flex: 1;
+    color: #21222c;
+}
+
+.coi-benefit-list {
+    margin: 0 0 0 24px;
+    padding: 0;
+    color: #222;
+    font-size: 1.02rem;
+}
+
+.coi-footer {
+    margin-top: 36px;
+    text-align: center;
+}
+
+.coi-signature-block {
+    margin-bottom: 16px;
+}
+
+.signature-label {
+    font-size: 1rem;
+    color: #555;
+    margin-bottom: 8px;
+}
+
+.signature-line {
+    border-bottom: 1px solid #777;
+    width: 200px;
+    height: 2.2em;
+    margin: 0 auto 7px auto;
+    display: block;
+}
+
+.signature-date {
+    color: #888;
+    font-size: 0.98rem;
+}
+
+.footer-note {
+    color: #888;
+    font-size: 0.93rem;
+    margin-top: 10px;
+}
+
+@media print {
+    body {
+        background: #fff;
+    }
+
+    .coi-container {
+        box-shadow: none;
+        border: 1.5px solid #000;
+    }
+}
+
+.kh, .kh * {
+    font-family: "Khmer OS", "Arial", sans-serif;
+    font-size: 1.08rem;
+}

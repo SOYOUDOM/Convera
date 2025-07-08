@@ -1,0 +1,3 @@
+﻿<Project>
+  <Import Project="..\buildMultiTargeting\Covera.PolicyImagingSystem.Web.props" />
+</Project>

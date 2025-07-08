@@ -1,0 +1,74 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Certificate of Insurance - Wealth Prestige</title>
+    <style>{{css}}</style>
+</head>
+<body>
+    <div class="coi-container">
+        <header class="coi-header">
+            <div class="coi-logo">
+                <!-- Place your AIA logo here if needed -->
+                <img src="" alt="AIA Logo" style="height: 54px;">
+            </div>
+            <div class="coi-header-text">
+                <h1>Certificate of Insurance</h1>
+                <h2 class="product-title">AIA Wealth Prestige</h2>
+                <div class="sub-title">Issued by AIA Cambodia Life Assurance Plc.</div>
+            </div>
+        </header>
+        <section class="coi-section section-policy">
+            <h3 class="section-title">Policy Details</h3>
+            <div class="coi-row"><span class="coi-label">Policy Number:</span><span class="coi-value">{{PolicyNumber}}</span></div>
+            <div class="coi-row"><span class="coi-label">Issue Date:</span><span class="coi-value">{{IssueDate}}</span></div>
+            <div class="coi-row"><span class="coi-label">Plan Code:</span><span class="coi-value">{{PlanCode}}</span></div>
+            <div class="coi-row"><span class="coi-label">Premium Amount:</span><span class="coi-value">{{PremiumAmount}}</span></div>
+            <div class="coi-row"><span class="coi-label">Coverage Period:</span><span class="coi-value">{{IssueDate}}</span></div>
+        </section>
+
+        <section class="coi-section section-owner">
+            <h3 class="section-title">Policy Owner Information</h3>
+            <div class="coi-row"><span class="coi-label">Owner Name:</span><span class="coi-value">{{OwnerFullName}}</span></div>
+            <div class="coi-row"><span class="coi-label">Gender:</span><span class="coi-value">{{OwnerGender}}</span></div>
+            <div class="coi-row"><span class="coi-label">Date of Birth:</span><span class="coi-value">{{OwnerDOB}}</span></div>
+            <div class="coi-row"><span class="coi-label">Phone:</span><span class="coi-value">{{OwnerPhoneNumber}}</span></div>
+            <div class="coi-row"><span class="coi-label">Address:</span><span class="coi-value">{{OwnerFullAddress}}</span></div>
+        </section>
+
+        <section class="coi-section section-assured">
+            <h3 class="section-title">Life Assured Information</h3>
+            <div class="coi-row"><span class="coi-label">Name:</span><span class="coi-value">{{LifeAssuredFullName}}</span></div>
+            <div class="coi-row"><span class="coi-label">Gender:</span><span class="coi-value">{{LifeAssuredGender}}</span></div>
+            <div class="coi-row"><span class="coi-label">Date of Birth:</span><span class="coi-value">{{LifeAssuredDOB}}</span></div>
+            <div class="coi-row"><span class="coi-label">Nationality:</span><span class="coi-value">{{LifeAssuredNationality}}</span></div>
+            <div class="coi-row"><span class="coi-label">Entry Age:</span><span class="coi-value">{{LifeAssuredEntryAge}}</span></div>
+            <div class="coi-row"><span class="coi-label">Phone:</span><span class="coi-value">{{LifeAssuredPhoneNumber}}</span></div>
+            <div class="coi-row"><span class="coi-label">Address:</span><span class="coi-value">{{LifeAssuredFullAddress}}</span></div>
+        </section>
+
+        <section class="coi-section section-benefit">
+            <h3 class="section-title">Key Benefits</h3>
+            <ul class="coi-benefit-list">
+                <li>Lump sum payment on death or total permanent disability of the life assured during the coverage period.</li>
+                <li>Wealth accumulation through regular premium payment.</li>
+                <li>Option for additional riders for extra coverage.</li>
+                <li>Guaranteed cash value after certain policy years (see policy terms).</li>
+            </ul>
+        </section>
+
+        <div class="coi-footer">
+            <div class="coi-signature-block">
+                <div class="signature-label">Authorized Signature</div>
+                <div class="signature-line"></div>
+                <div class="signature-date">Date: {{PrintDate}}</div>
+            </div>
+            <div class="footer-note">
+                This certificate is issued as evidence of insurance coverage for the named policy.<br>
+                Please refer to the full policy document for all terms, conditions, and exclusions.<br>
+                &copy; {{CurrentYear}} AIA Cambodia Life Assurance Plc.
+            </div>
+        </div>
+    </div>
+</body>
+</html>
